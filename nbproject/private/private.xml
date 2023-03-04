@@ -3,17 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/CaroProjectFinallyy/src/init/intro/IntroFrm.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/exception/InvalidAgeException.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/init/playerdata/PlayerQuery.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/init/register/RegisterFrm.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/maingame/control/CaroController.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/maingame/view/CaroView.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/maingame/model/CurrentPlayer.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/test/TestGame.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/maingame/model/CaroModel.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/init/playerdata/Player.java</file>
-            <file>file:/D:/CaroProjectFinallyy/src/init/login/LoginFrm.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/maingame/model/CaroModel.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/init/login/LoginFrm.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/maingame/control/CaroController.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/test/TestGame.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/init/playerdata/PlayerQuery.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/init/intro/IntroFrm.java</file>
+            <file>file:/C:/CaroProjectFinallyy/src/maingame/view/CaroView.java</file>
         </group>
     </open-files>
 </project-private>

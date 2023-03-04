@@ -20,7 +20,7 @@ public class PlayerQuery {
 
     private static final String USERNAME = "sa";
     private static final String PASSWORD = "123";
-    private static final String SERVER_NAME = "DESKTOP-HANANH\\SQLEXPRESS";
+    private static final String SERVER_NAME = "DESKTOP-36TTNMV\\SQLEXPRESS";
     private static final String DATABASE_NAME = "PlayerCaroGame";
     private static final int PORT = 1433;
     private SQLServerDataSource dataSource;

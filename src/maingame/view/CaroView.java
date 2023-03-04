@@ -62,7 +62,9 @@ public class CaroView extends JFrame {
         this();
         this.loginFrm = loginFrm;
         setPlayerInGameInfo(player1, player2);
-        this.setSize(1900, 1000);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+//        this.setUndecorated(true);
+//        this.setSize(1920, 1080);
         this.setTitle("GAME CAROOOOOOOOOOOOOOOO");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
@@ -121,6 +123,7 @@ public class CaroView extends JFrame {
                 btnTiles[i][j].setActionCommand(i + " " + j);
                 btnTiles[i][j].setBackground(BACKGROUND_COLOR);
                 btnTiles[i][j].addActionListener(caroController);
+//                btnTiles[i][j].setFont(new Font("Roboto", Font.BOLD, 10));
                 caroModel.getTick()[i][j] = true;
             }
         }
@@ -252,13 +255,13 @@ public class CaroView extends JFrame {
         if (currentPlayer == CurrentPlayer.X) {
             btnTiles[i][j].setText("X");
             btnTiles[i][j].setForeground(X_COLOR);
-            btnTiles[i][j].setFont(new Font("Roboto", Font.BOLD, 20));
+            btnTiles[i][j].setFont(new Font("Roboto", Font.BOLD, 15));
             lblMessage.setText("LƯỢT CỦA O");
             caroModel.setCurrentPlayer(CurrentPlayer.O);
         } else {
             btnTiles[i][j].setText("O");
             btnTiles[i][j].setForeground(O_COLOR);
-            btnTiles[i][j].setFont(new Font("Roboto", Font.BOLD, 20));
+            btnTiles[i][j].setFont(new Font("Roboto", Font.BOLD, 14));
             lblMessage.setText("LƯỢT CỦA X");
             caroModel.setCurrentPlayer(CurrentPlayer.X);
         }
