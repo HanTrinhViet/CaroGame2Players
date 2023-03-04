@@ -1,0 +1,1 @@
+INSERT INTO dbo.player VALUES(1, )
